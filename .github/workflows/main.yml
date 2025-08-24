@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs once per day at midnight UTC
+    - cron: "0 0 * * *"   # runs once per day
   workflow_dispatch:
 
 jobs:
@@ -19,10 +19,10 @@ jobs:
           github_user_name: SoujanyaS257
           outputs: dist/snake.svg
 
-          # 🎨 Custom styling
-          background: "#000000"   # Black background
-          snake_color: "#39FF14"  # Neon green snake
-          color_dots: "#FFFFFF,#CCCCCC,#999999,#666666"  # White/gray contribution squares
+          # Black everything
+          background: "#000000"       # Black background
+          snake_color: "#39FF14"      # Neon green snake
+          color_dots: "#000000,#000000,#000000,#000000"  # All squares black
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
