@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs once a day at midnight UTC
+    - cron: "0 0 * * *"   # once a day
   workflow_dispatch:
 
 jobs:
@@ -10,18 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # Generate snake.svg inside "dist/"
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: SoujanyaS257
           outputs: dist/snake.svg
-
-      # Deploy to "output" branch
+          # 🎨 Dark theme customization
+          palette: github-dark
+          
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
