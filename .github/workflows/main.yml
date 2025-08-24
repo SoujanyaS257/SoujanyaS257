@@ -18,9 +18,11 @@ jobs:
         with:
           github_user_name: SoujanyaS257
           outputs: dist/snake.svg
-          background: "#000000"    # 🖤 Always black background
-          snake_color: "#39FF14"   # 💚 Neon green snake (you can change)
-          color_dots: "#222222,#444444,#666666,#888888"  # dark gray dots
+
+          # 🎨 Custom styling
+          background: "#000000"   # Black background
+          snake_color: "#39FF14"  # Neon green snake
+          color_dots: "#FFFFFF,#CCCCCC,#999999,#666666"  # White/gray contribution squares
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
