@@ -11,7 +11,7 @@
   <a href="https://www.hackerrank.com/profile/soujanyas205" target="_blank">
     <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="hackerrank logo"  />
   </a>
-  <a href="soujanyas257@gmail.com" target="_blank">
+  <a href="mailto:soujanyas257@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
   </a>
 </div>
@@ -32,7 +32,14 @@
 
 ###
 
-<p align="left">👋 Hi, I'm Soujanya from India  <br>🎓 AIML Engineering Student  <br>💡 Passionate about AI and software development  <br>🔭 I’m working on projects related to AI and software development  <br>📚 I'm currently learning web development and exploring new technologies  <br>⚡ In my free time I enjoy experimenting with projects and learning new skills</p>
+<p align="left">
+👋 Hi, I'm Soujanya from India <br>
+🎓 AIML Engineering Student <br>
+💡 Passionate about AI and software development <br>
+🔭 I’m working on projects related to AI and software development <br>
+📚 I'm currently learning web development and exploring new technologies <br>
+⚡ In my free time I enjoy experimenting with projects and learning new skills
+</p>
 
 ###
 
@@ -65,3 +72,9 @@
 </div>
 
 ###
+
+<h3 align="center">🐍 Watch my contributions being eaten by a Snake!</h3>
+
+<div align="center">
+  <img src="https://github.com/SoujanyaS257/SoujanyaS257/blob/output/snake.svg" alt="Snake animation" />
+</div>
